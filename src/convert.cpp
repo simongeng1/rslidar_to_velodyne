@@ -15,6 +15,10 @@
 #include <pcl_conversions/pcl_conversions.h>
 
 #include <pcl/point_types.h>
+#include <velodyne_pointcloud/rawdata.h>
+#include <tf/transform_broadcaster.h>
+#include <ros/ros.h>
+#include <string.h>
 
 using namespace std;
 
